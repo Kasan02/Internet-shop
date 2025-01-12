@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-cart {
+    height: 400px;
+    background-image: url(img-good/topcart.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .heading-big {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 128px;
+  }
+  
+  .cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 48px;
+    margin-top: 64px;
+    &-content {
+      grid-column: span 8;
+    } 
+    &__name-box {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 14px;
+      padding-right: 27px;
+    }
+    &__item {
+      border-top: 0.5px solid #cacdd8;
+      padding-top: 25px;
+      padding-bottom: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    &__left {
+      display: flex;
+      gap: 32px;
+    }
+    &__img {
+      width: 173px;
+      height: 173px;
+    }
+    &__link-one {
+      color: rgb(0, 0, 0);
+      font-family: "Montserrat", sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-right: 30px;
+    }
+    &__link-one a {
+      text-decoration: none;
+      pointer-events: none;
+  }
+  
+    &__link-one:hover {
+      text-decoration: none;
+  }
+    &__link-two {
+      color: rgb(0, 0, 0);
+      font-family: "Montserrat", sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+    }
+    &__link-two a {
+      text-decoration: none;
+      pointer-events: none;
+  }
+  
+    &__link-two:hover {
+      text-decoration: none;
+  }
+    &-form {
+      border-radius: 20px;
+      background: rgb(247, 246, 246);
+      height: 556px;
+      grid-column: span 4;
+      margin-left: 33px;
+    }
+    &__head-form {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+      padding-top: 42px;
+      padding-bottom: 35px;
+    }
+    &__input-form {
+      padding-left: 27px;
+    }
+    &__input-name {
+      width: 288px;
+      border: none;
+      height: 20px;
+      background: none;
+      margin-bottom: 41.5px;
+      border-bottom: 1px solid rgb(202, 205, 216);
+    }
+    &__input-name::placeholder {
+      color: rgb(0, 0, 0);
+      font-family: "Montserrat", sans-serif; 
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+    }
+    &__input-name:focus {
+      outline: none;
+    }
+    &__input-number {
+      width: 288px;
+      height: 20px;
+      background: none;
+      border: none;
+      margin-bottom: 41.5px;
+      border-bottom: 1px solid rgb(202, 205, 216);
+    }
+    &__input-number::placeholder {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      color: rgb(0, 0, 0);
+      font-family: "Montserrat", sans-serif; 
+    }
+    &__input-number:focus {
+      outline: none;
+    }
+    &__input-adress {
+      width: 288px;
+      height: 20px;
+      background: none;
+      border: none;
+      border-bottom: 1px solid rgb(202, 205, 216);
+    }
+    &__input-adress::placeholder {
+      color: rgb(0, 0, 0);
+      font-family: "Montserrat", sans-serif; 
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+    }
+    &__input-adress:focus {
+      outline: none;
+    }
+  }
+
+.product-cart__title { 
+  font-weight: 500; 
+  font-size: 24px; 
+  line-height: 29px; 
+  color: #000; 
+  margin-bottom: 9px; 
+}
+
+.product-cart__text {
+    color: #888;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    width: 276px;
+    height: 50px;
+  }
+
+  .product-cart {
+    width: 276px;
+  }
+
+  .product-cart__price--sale {
+  color: rgb(5, 5, 5);
+  font-family: "Montserrat", sans-serif; 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.input {
+  border-radius: 6px;
+background: rgb(247, 246, 246);
+width: 71px;
+height: 51px;
+font-size: 14px;
+font-weight: 600;
+line-height: 210%;
+letter-spacing: 0px;
+text-align: center;
+border: none;
+font-family: "Montserrat", sans-serif; 
+}
+
+.price-bold {
+padding-top: 64.5px;
+color: rgb(0, 0, 0);
+font-family: "Montserrat", sans-serif; 
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+.price-normal {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif; 
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-right: 8px;
+  }
+
+.btn-value {
+  padding-left: 27.5px;
+  padding-top: 18px;
+}
+
+.btn {
+  width: 290px;
+  height: 41px;
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 4, 4);
+  border-radius: 20px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  background: none;
+}
+
+.btn:hover {
+  background: #000;
+  transition: 1s;
+  color: #fff;
+}
+
+.button-cart {
+  padding-top: 18px;
+}
+
+.button-cart__clear {
+  width: 200px;
+  height: 37px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif; 
+  background: none;
+  margin-right: 7px;
+}
+
+.button-cart__clear:hover {
+  background: #000;
+  transition: 1s;
+  color: #fff;
+}
+
+.button-cart__next {
+  width: 200px;
+  height: 37px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  background: none; 
+}
+
+.button-cart__next:hover {
+  background: #000;
+  transition: 1s;
+  color: #fff;
+}
+  
+  
+
+
+  
+
+
+
+
+
+

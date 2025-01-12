@@ -1,0 +1,71 @@
+.heading-big {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 128px;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+}
+
+.cart-form {
+  border-radius: 20px;
+  background: rgb(247, 246, 246);
+  height: 556px;
+  grid-column: span 4;
+  display: grid;
+}
+
+.cart__content {
+  display: grid;
+  grid-column: span 8;
+}
+
+.hero {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  color: rgb(255, 255, 255);
+  padding-top: 128px;
+}
+
+.hero__title {
+  padding-top: 64px;
+}
+
+.select {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.select-right {
+  width: 227px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 20px;
+  text-indent: 23px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.select-left {
+  width: 182px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 20px;
+  text-indent: 23px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}/*# sourceMappingURL=_cart.css.map */
